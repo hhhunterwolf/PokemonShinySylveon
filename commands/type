@@ -1,0 +1,76 @@
+const tp = require("../Data/types.json");
+
+exports.run = (client, message, args) => {
+    let typeinp = args[0];
+    if(!typeinp){
+        message.channel.send("Please give a type to show info on");
+    }else{
+        let type = typeinp.toLowerCase();
+        if(!tp[type]){
+            message.channel.send("Thats not a valid type name");
+        }else{
+            let colorT;
+            if(type === "fairy"){
+                colorT = 0xEE99AC
+            }else if(type === "dark"){
+                colorT = 0x705848
+            }else if(type === "dragon"){
+                colorT = 0x7038F8
+            }else if(type === "ice"){
+                colorT = 0x98D8D8
+            }else if(type === "psychic"){
+                colorT = 0xF85888
+            }else if(type === "electric"){
+                colorT = 0xF8D030
+            }else if(type === "grass"){
+                colorT = 0x78C850
+            }else if(type === "water"){
+                colorT = 0x6890F0
+            }else if(type === "fire"){
+                colorT = 0xF08030
+            }else if(type === "steel"){
+                colorT = 0xB8B8D0
+            }else if(type === "ghost"){
+                colorT = 0x705898
+            }else if(type === "bug"){
+                colorT = 0xA8B820
+            }else if(type === "rock"){
+                colorT = 0xB8A038
+            }else if(type === "ground"){
+                colorT = 0xE0C068
+            }else if(type === "poison"){
+                colorT = 0xA040A0
+            }else if(type === "flying"){
+                colorT = 0xA890F0
+            }else if(type === "fighting"){
+                colorT = 0xC03028
+            }else if(type === "normal"){
+                colorT = 0xA8A878
+            }
+
+            let weak = tp[type].weaknesses;
+            let supereff = tp[type].strengths;
+            let immune = tp[type].immunes;
+            let typename = tp[type].name + " " + tp[type].icon;
+            let embed = {
+                title: typename,
+                color: colorT,
+                fields:[
+                    {
+                        name: "Super Effective To",
+                        value: supereff
+                    },
+                    {
+                        name: "Weak To",
+                        value: weak
+                    },
+                    {
+                        name: "Immune to",
+                        value: immune
+                    }
+                ]
+            }
+            message.channel.send({embed:embed});
+        }
+    }
+}

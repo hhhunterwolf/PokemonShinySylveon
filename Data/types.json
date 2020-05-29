@@ -1,0 +1,136 @@
+{
+        "normal":{
+            "name":"Normal",
+            "immunes":"Ghost",
+            "weaknesses":"Rock, steel",
+            "strengths":"None",
+            "icon": "<:normal:709850918283247696>"
+        },
+        "sans":{
+          "name": "Sans",
+          "immunes": "Normal, Grass, Fire, Water, Electric, Flying, Dark, Fighting, Psychic, Ghost, Ice, Ground, Rock, Steel, Dragon, Fairy, Bug, Poison",
+          "strengths": "Normal, Grass, Fire, Water, Electric, Flying, Dark, Fighting, Psychic, Ghost, Ice, Ground, Rock, Steel, Dragon, Fairy, Bug, Poison",
+          "weaknesses": "None",
+          "icon": "<:sans:711876534310273084>"
+        },
+        "fire":{
+            "name":"Fire",
+            "immunes":"None",
+            "weaknesses":"Fire, Water, Rock, Dragon",
+            "strengths":"Grass, Ice, Bug, Steel",
+            "icon": "<:fire1:709850917704433787>"
+        },
+        "water":{
+            "name":"Water",
+            "immunes":"None",
+            "weaknesses":"Water, Grass, Dragon",
+            "strengths":"Fire, Ground, Rock",
+            "icon": "<:water:709850920426405890>"
+        },
+        "electric":{
+            "name":"Electric",
+            "immunes":"Ground",
+            "weaknesses":"Electric, Grass, Dragon",
+            "strengths":"Water, Flying",
+            "icon": "<:electric:709850917763022858>"
+        },
+        "grass":{
+            "name":"Grass",
+            "immunes":"None",
+            "weaknesses":"Fire, Grass, Poison, Flying, Bug, Dragon, Steel",
+            "strengths":"Water, Ground, Rock",
+            "icon": "<:grass:709850918438568017>"
+        },
+        "ice":{
+            "name":"Ice",
+            "immunes":"None",
+            "weaknesses":"Fire, Water, Ice, Steel",
+            "strengths":"Grass, Ground, Flying, Dragon",
+            "icon": "<:ice:709850918270664778>"
+        },
+        "fighting":{
+            "name":"Fighting",
+            "immunes":"Ghost",
+            "weaknesses":"Poison, Flying, Psychic, Bug, Fairy",
+            "strengths":"Normal, Ice, Rock, Dark, Steel",
+            "icon": "<:fighting:709850918115606549>"
+        },
+        "poison":{
+            "name":"Poison",
+            "immunes":"Steel",
+            "weaknesses":"Poison, Ground, Rock, Ghost",
+            "strengths":"Grass, Fairy",
+            "icon": "<:poison:709850918736232568>"
+        },
+        "ground":{
+            "name":"Ground",
+            "immunes":"Flying",
+            "weaknesses":"Grass, Bug",
+            "strengths":"Fire, Electric, Poison, Rock, Steel",
+            "icon": "<:ground:709850917775605882>"
+        },
+        "flying":{
+            "name":"Flying",
+            "immunes":"None",
+            "weaknesses":"Electric, Rock, Steel",
+            "strengths":"Grass, Fighting, Bug",
+            "icon": "<:flying:709850917884919840>"
+        },
+        "psychic":{
+            "name":"Psychic",
+            "immunes":"Dark",
+            "weaknesses":"Psychic, Steel",
+            "strengths":"Fighting, Poison",
+            "icon": "<:psychic:709850920011432039>"
+        },
+        "bug":{
+            "name":"Bug",
+            "immunes":"None",
+            "weaknesses":"Fire, Fighting, Poison, Flying, Ghost, Steel, Fairy",
+            "strengths":"Grass, Psychic, Dark",
+            "resist": "Fighting, Grass, Ground",
+            "icon": "<:bug1:709850917108973632>"
+        },
+        "rock":{
+            "name":"Rock",
+            "immunes":"None",
+            "weaknesses":"Fighting, Ground, Steel",
+            "strengths":"Fire, Ice, Flying, Bug",
+            "icon": "<:rock:709850918748815442>"
+        },
+        "ghost":{
+            "name":"Ghost",
+            "immunes":"Normal",
+            "weaknesses":"Dark",
+            "strengths":"Psychic, Ghost",
+            "icon": "<:ghost1:709850918262145134>"
+        },
+        "dragon":{
+            "name":"Dragon",
+            "immunes":"Fairy",
+            "weaknesses":"Steel",
+            "strengths":"Dragon",
+            "icon": ""
+        },
+        "dark":{
+            "name":"Dark",
+            "immunes":"None",
+            "weaknesses":"Fighting, Dark, Fairy",
+            "strengths":"Psychic, Ghost",
+            "icon": "<:dragon:709850917607833602>"
+        },
+        "steel":{
+            "name":"Steel",
+            "immunes":"None",
+            "weaknesses":"Fire, Water, Electric, Steel",
+            "strengths":"Ice, Rock, Fairy",
+            "icon": "<:steel:709850918333579334>"
+        },
+        "fairy":{
+            "name":"Fairy",
+            "immunes":"None",
+            "weaknesses":"Fire, Poison, Steel",
+            "strengths":"Fighting, Dragon, Dark",
+            "icon": "<:fairy:709850918560202883>"
+            }
+}

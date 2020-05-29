@@ -1,0 +1,86 @@
+{
+  "gardevoir":{
+    "meganame": "gardevoirmega"
+  },
+  "heracross":{
+    "meganame": "heracrossmega"
+  },
+  "charizard":{
+	"meganame": "charizardmega"
+  },
+  "venusaur":{
+	"meganame": "vanusaurmega"
+  },
+  "blastoise": {
+	"meganame": "blastoisemega"
+  },
+  "blaziken":{
+	"meganame": "balzikenmega"
+  },
+  "swampert": {
+	"meganame": "swampertmega"
+  },
+  "sceptile": {
+	"meganame": "sceptilemega"
+  },
+  "alakazam": {
+	"meganame": "alakazammega"
+  },
+  "gengar": {
+	"meganame": "gengarmega"
+  },
+  "kangaskhan":{
+	"meganame": "kangaskhanmega"
+  },
+  "pinsir":{
+	"meganame": "pinsirmega"
+  },
+  "gyarados":{
+	"meganame": "gyaradosmega"
+  },
+  "aerodactyl":{
+	"meganame": "aerodactylmega"
+  },
+  "mewtwo":{
+	"meganame": "mewtwomega"
+  },
+  "ampharos": {
+	"meganame": "ampharosmega"
+  },
+  "scizor": {
+	"meganame": "scizormega"
+  },
+  "houndoom":{
+	"meganame": "houndoommega"
+  },
+  "tyranitar":{
+	"meganame": "tyranitarmega"
+  },
+  "mawile": {
+	"meganame": "mawilemega"
+  },
+  "aggron": {
+	"meganame": "aggronmega"
+  },
+  "medicham":{
+	"meganame": "medichammega"
+  },
+  "manectric":{
+	"meganame": "manectricmega"
+  },
+  "banette":{
+	"meganame": "banettemega"
+  },
+  "absol": {
+	"meganame": "absolmega"
+  },
+  "garchomp":{
+	"meganame": "garchompmega"
+  },
+  "abomasnow":{
+	"meganame": "abomasnowmega"
+  },
+  "lucario":{
+	"meganame": "lucariomega"
+  }
+}
